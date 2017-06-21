@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Crushed');
+
+body{
+	 background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+	 font-family: 'Crushed', cursive;
+	 font-size: 30px;
+}
+header {
+     
+	 text-align:center;
+	 
+ } 
+ header a {
+	 color:#FFFFFF;
+ }
+ 
+ img {
+	 max-width: 400px;
+ }
+ 
+ .centered {
+	 text-align: center;
+ }

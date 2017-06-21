@@ -1,0 +1,56 @@
+<html>
+<script type="text/javascript">
+
+function login(){
+	var username= document.getElementById("username");
+	var password= document.getElementById("password");
+			console.log(username.value);
+			console.log(password.value);
+	var user= "caillouswaggy1";
+	var pass="burger";
+	if(username.value===user&& password.value=== pass){
+       console.log("You are logged in");
+		window.open('Index.html',' _self',false);
+	}
+}
+</script>
+<head>
+<link rel="stylesheet" type= "text/css" href="style1.css">
+</head>
+<body>
+	<form>
+		Username:<input type= "text" id="username">
+		<br>
+		Password:<input type="password" id="password">
+
+		<button type="button" onclick="login()"> Log In<button>
+
+
+	</form>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+</html>

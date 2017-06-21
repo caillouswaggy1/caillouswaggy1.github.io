@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Crushed');
+
+body{
+	 background: linear-gradient(purple,red,pink);
+	 font-family: 'Crushed', cursive;
+}
+ h1 {
+	 color:red
+ } 
+ 
+ img {
+	 max-width: 400px;
+ }
+ <p>{
+	 color: green
+ }
